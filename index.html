@@ -1,0 +1,1810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AB&amp;M Fire Preventers | Fire Safety, Karachi</title>
+  <meta name="description" content="AB&amp;M FIRE PREVENTORS is committed to provide the best possible services to minimize and keep fire risks / hazards as low as practically possible.">
+  <meta name="theme-color" content="#e10613">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo-mark.png" type="image/png">
+  <style>
+    :root {
+      --red: #e10613;
+      --red-deep: #b10e1c;
+      --red-soft: #fdecee;
+      --ink: #171717;
+      --charcoal: #1c1c1c;
+      --muted: #5c5c5c;
+      --line: #e7e4df;
+      --paper: #f6f4f1;
+      --white: #ffffff;
+      --shadow: 0 16px 40px rgba(23, 23, 23, 0.08);
+      --header: 84px;
+      --display: Helvetica, "Helvetica Neue", Arial, sans-serif;
+      --body: Inter, Helvetica, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: auto; }
+    html.lenis, html.lenis body { height: auto; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--white);
+      font-family: var(--body);
+      font-size: 16.5px;
+      line-height: 1.65;
+      text-rendering: optimizeLegibility;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea { font: inherit; }
+    h1, h2, h3, h4, .display { font-family: var(--display); letter-spacing: -0.03em; line-height: 1.05; margin: 0; }
+    p { margin: 0; color: #000; }
+    ul { margin: 0; padding: 0; list-style: none; }
+
+    ::selection { background: var(--red); color: #fff; }
+    :focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+    .wrap {
+      width: calc(100% - 200px);
+      margin-inline: auto;
+    }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--red);
+      font-family: var(--display);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .kicker::before {
+      content: "";
+      width: 22px;
+      height: 2px;
+      background: var(--red);
+    }
+
+    .site-header {
+      position: absolute;
+      top: 18px;
+      left: 0;
+      right: 0;
+      z-index: 40;
+      height: auto;
+      background: transparent;
+      border: 0;
+    }
+    .nav-bar {
+      position: relative;
+      width: calc(100% - 200px);
+      height: 86px;
+      margin: 0 auto;
+      padding: 0 10px 0 14px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 18px;
+      background: rgba(176, 176, 176, 0.72);
+      border-radius: 999px;
+      backdrop-filter: blur(6px);
+    }
+    .brand-word {
+      display: flex;
+      align-items: center;
+      line-height: 0;
+    }
+    .brand-mark { display: block; height: 70px; width: auto; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand-text { display: flex; flex-direction: column; line-height: 1; }
+    .brand-text strong {
+      font-family: var(--display);
+      font-size: 22px;
+      letter-spacing: -0.04em;
+    }
+    .brand-text strong span { color: var(--red); }
+    .brand-text small {
+      margin-top: 4px;
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .nav-cta {
+      border: 0;
+      border-radius: 999px;
+      min-height: 50px;
+      padding: 0 22px;
+      background: var(--red);
+      box-shadow: 0 8px 24px rgba(225, 6, 19, 0.35);
+      color: #fff;
+      font-weight: 700;
+    }
+    .nav-cta:hover { background: var(--red-deep); color: #fff; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 48px;
+      padding: 0 20px;
+      border: 1px solid var(--red);
+      background: var(--red);
+      color: #fff;
+      font-family: var(--display);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      cursor: pointer;
+      transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    }
+    .btn:hover { background: var(--red-deep); }
+    .btn.ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
+    .btn.ghost:hover { background: var(--ink); color: #fff; }
+    .btn.light { background: #fff; color: var(--red); border-color: #fff; }
+    .btn.light:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 60px 0;
+      background: #14090a;
+      color: #fff;
+      overflow: hidden;
+    }
+    .hero-bg { position: absolute; inset: 0; }
+    .hero-bg video, .hero-bg img {
+      position: relative;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+    .hero-bg::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background:
+        radial-gradient(ellipse at 50% 42%, rgba(225, 6, 19, 0.38), rgba(90, 8, 14, 0.34) 46%, rgba(18, 4, 6, 0.74) 78%),
+        linear-gradient(180deg, rgba(40, 4, 8, 0.5) 0%, rgba(120, 8, 16, 0.48) 48%, rgba(48, 4, 8, 0.78) 100%);
+    }
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: block;
+    }
+    .hero-copy {
+      max-width: 760px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .hero .kicker { justify-content: center; }
+    .hero .kicker, .hero .kicker::before { color: var(--red); }
+    .hero .kicker::before { background: var(--red); }
+    .hero .lead, .hero-note { color: rgba(255, 255, 255, 0.92); }
+    .hero-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 26px; }
+    .hero .btn {
+      border: 0;
+      border-radius: 999px;
+      min-height: 48px;
+      padding: 0 22px;
+      background: var(--red);
+      box-shadow: 0 10px 24px rgba(225, 6, 19, 0.35);
+    }
+    .hero .btn:hover { background: var(--red-deep); }
+    .hero .btn.ghost {
+      background: transparent;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.55);
+      box-shadow: none;
+    }
+    .hero .btn.ghost:hover { background: rgba(255, 255, 255, 0.12); color: #fff; }
+    .hero h1 {
+      margin-top: 16px;
+      font-size: clamp(48px, 6vw, 76px);
+      max-width: none;
+      color: #fff;
+    }
+    .hero h1 span {
+      display: block;
+      background: none;
+      color: var(--red);
+    }
+    .hero .lead {
+      margin: 22px auto 0;
+      max-width: 62ch;
+      color: rgba(255, 255, 255, 0.94);
+      font-size: 17.5px;
+    }
+    .hero .lead .name { color: #fff; font-weight: 700; }
+    .hero-note { margin-top: 22px; color: rgba(255, 255, 255, 0.78); font-size: 14px; }
+    .ticker {
+      background: var(--red);
+      overflow: hidden;
+    }
+    .ticker-track {
+      display: flex;
+      width: max-content;
+      animation: ticker-move 36s linear infinite;
+    }
+    .ticker:hover .ticker-track { animation-play-state: paused; }
+    .ticker-group { display: flex; align-items: center; flex: none; }
+    .ticker-group span {
+      display: inline-flex;
+      align-items: center;
+      gap: 18px;
+      padding: 15px 26px;
+      color: #fff;
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: 16px;
+      white-space: nowrap;
+    }
+    .ticker-group svg { width: 16px; height: 16px; flex: none; display: block; }
+    @keyframes ticker-move {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    .hero-card {
+      position: relative;
+      min-height: 460px;
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 28px 18px 22px 22px;
+    }
+    .hero-card img {
+      position: relative;
+      z-index: 1;
+      width: min(320px, 68%);
+      height: auto;
+      margin-left: 8px;
+    }
+    .ribbons { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .float-note {
+      position: relative;
+      z-index: 2;
+      margin: 8px 0 0 8px;
+      background: #111;
+      color: #fff;
+      padding: 14px 16px;
+      min-width: 148px;
+    }
+    .float-note strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 34px;
+      letter-spacing: -0.04em;
+      line-height: 1;
+    }
+    .float-note span { display: block; margin-top: 4px; font-size: 12px; letter-spacing: 0.04em; color: #ffc4c7; }
+
+    .intro-board {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+    .intro-copy h2,
+    .intro-copy .prose,
+    .intro-copy .prose p,
+    .intro-copy .card h3,
+    .intro-copy .card p { color: #000; }
+    .intro-copy h2 {
+      margin-top: 12px;
+      font-size: clamp(36px, 4vw, 52px);
+      max-width: 12ch;
+    }
+    .intro-copy .prose { margin-top: 18px; }
+    .intro-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 22px;
+    }
+    .intro-pair .card,
+    .intro-pair .vision { min-height: 0; border-radius: 12px; background: #fff; }
+    .intro-gallery {
+      display: grid;
+      grid-template-rows: 1.45fr 0.7fr;
+      gap: 14px;
+      min-height: 100%;
+    }
+    .intro-shots {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      min-height: 168px;
+    }
+    .shot {
+      position: relative;
+      overflow: hidden;
+      background: #111;
+      margin: 0;
+      border-radius: 18px;
+      box-shadow: 0 16px 36px rgba(23, 23, 23, 0.08);
+      min-height: 168px;
+    }
+    .shot.lead {
+      min-height: 360px;
+      height: 100%;
+      border-left: 6px solid var(--red);
+    }
+    .shot::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(17, 17, 17, 0.5), transparent 48%);
+      pointer-events: none;
+    }
+    .shot img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scale(1.08);
+    }
+    .shot figcaption {
+      position: absolute;
+      left: 14px;
+      bottom: 14px;
+      z-index: 1;
+      color: var(--ink);
+      background: #fff;
+      padding: 7px 12px;
+      border-radius: 999px;
+      font-family: var(--display);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .band { padding: 60px 0; }
+    .band.tight { padding: 28px 0 8px; }
+    .band.paper { background: var(--paper); }
+    .band.ink { background: var(--charcoal); color: #fff; }
+    .section-head {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      align-items: end;
+      margin-bottom: 36px;
+    }
+    .section-head h2 { font-size: clamp(34px, 4vw, 52px); max-width: 14ch; }
+    .section-head p { color: #000; max-width: 46ch; justify-self: end; }
+    .band.ink .section-head p { color: #cfcfcf; }
+
+    .trio, .grid-4, .grid-2, .reasons, .standards, .projects {
+      display: grid;
+      gap: 18px;
+      align-items: stretch;
+    }
+    .trio { grid-template-columns: repeat(3, 1fr); }
+    .grid-4 { grid-template-columns: repeat(4, 1fr); }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    .grid-2 { grid-template-columns: 1fr 1fr; }
+    .reasons { grid-template-columns: 1fr 1fr; }
+    .standards { grid-template-columns: repeat(5, 1fr); }
+    .projects { grid-template-columns: repeat(3, 1fr); }
+
+    .card, .reason, .std, .project, .profile, .step {
+      background: #fff;
+      border: 1px solid var(--line);
+      min-height: 210px;
+      padding: 26px 24px 24px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover, .project:hover, .profile:hover, .step:hover {
+      transform: translateY(-3px);
+      border-color: #f3b7bd;
+      box-shadow: var(--shadow);
+    }
+    .idx {
+      font-family: var(--display);
+      color: var(--red);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+    }
+    .card h3, .reason h3, .project h3, .profile h3, .step h3 {
+      margin: 14px 0 10px;
+      font-size: 22px;
+      letter-spacing: -0.03em;
+    }
+    .card p, .step p, .profile p { color: #000; }
+    .card p { margin-top: auto; }
+    #services {
+      position: relative;
+      overflow: hidden;
+      background: #fff7f6;
+    }
+    .svc-mark {
+      position: absolute;
+      top: 36px;
+      right: max(18px, calc((100% - 1200px) / 2 - 8px));
+      width: 168px;
+      pointer-events: none;
+    }
+    .svc-head { position: relative; z-index: 1; max-width: 820px; margin-bottom: 34px; }
+    .svc-head h2 {
+      margin-top: 14px;
+      font-size: clamp(34px, 3.6vw, 48px);
+      max-width: none;
+      letter-spacing: -0.04em;
+    }
+    .svc-head h2 span { color: var(--red); }
+    .svc-head .lede { margin-top: 16px; color: #000; max-width: 54ch; font-size: 16.5px; }
+    .svc-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+    .svc {
+      position: relative;
+      background: #fff;
+      border: 0;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(90, 24, 30, 0.05);
+      padding: 26px 24px 28px;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .svc:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 36px rgba(90, 24, 30, 0.09);
+    }
+    .svc-top { display: flex; align-items: center; gap: 14px; }
+    .svc-ico {
+      width: 72px;
+      height: 72px;
+      border-radius: 16px;
+      background: #fdecee;
+      color: var(--red);
+      display: grid;
+      place-items: center;
+      flex: none;
+    }
+    .svc-ico img {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+    }
+    .svc h3 {
+      margin: 16px 0 8px;
+      font-size: 18px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+    .svc p { margin: 0; color: #000; font-size: 14.5px; line-height: 1.55; }
+    .callout { background: #fff7f6; padding: 0 0 60px; }
+    .callout-card {
+      position: relative;
+      width: 100%;
+      min-height: 540px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 110px 32px;
+      background: url("drill-scene.jpg") center 42% / cover no-repeat fixed;
+    }
+    .callout-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(ellipse at 50% 42%, rgba(225, 6, 19, 0.42), rgba(70, 8, 14, 0.5) 48%, rgba(10, 8, 8, 0.78) 100%),
+        linear-gradient(180deg, rgba(18, 4, 6, 0.55), rgba(12, 8, 8, 0.62));
+    }
+    .callout-card > div { position: relative; z-index: 1; }
+    .callout-card h2 {
+      color: #fff;
+      font-size: clamp(34px, 4.4vw, 52px);
+      letter-spacing: -0.04em;
+      max-width: 22ch;
+    }
+    .callout-card h2 span { display: block; color: var(--red); }
+    .callout-card p {
+      color: rgba(255, 255, 255, 0.88);
+      max-width: 58ch;
+      margin: 16px auto 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .callout-card .btn {
+      margin-top: 26px;
+      border-radius: 999px;
+      min-height: 46px;
+      padding: 0 22px;
+      gap: 8px;
+    }
+    .callout-card .btn svg {
+      width: 16px;
+      height: 16px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .doc { display: grid; gap: 14px; }
+    .doc p { color: #000; }
+
+    .ico {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      background: var(--red-soft);
+      color: var(--red);
+      margin-bottom: 8px;
+    }
+    .ico svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+    .split {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .split h2 { font-size: clamp(34px, 4vw, 52px); }
+    .prose { display: grid; gap: 14px; color: #000; }
+    .prose strong { color: var(--ink); font-weight: 600; }
+
+    .vision { min-height: 240px; }
+    .vision h3 { font-size: 26px; }
+    .vision p { margin-top: 12px; }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: 0.82fr 1.18fr;
+      gap: 36px;
+      align-items: stretch;
+    }
+    .why-copy h2 { font-size: clamp(34px, 4vw, 52px); max-width: 12ch; }
+    .why-copy p { margin-top: 18px; color: #cfcfcf; max-width: 38ch; }
+    .reason {
+      background: #262626;
+      border-color: #333;
+      color: #fff;
+      min-height: 168px;
+    }
+    .reason p { color: #c8c8c8; }
+    .reason:hover { transform: none; box-shadow: none; }
+
+    .steps { counter-reset: step; }
+    .step { min-height: 230px; background: #fff; }
+    .step .idx { font-size: 28px; letter-spacing: -0.04em; }
+
+    .ceo-layout {
+      display: grid;
+      grid-template-columns: 0.72fr 1.28fr;
+      gap: 36px;
+      align-items: stretch;
+    }
+    .ceo-panel {
+      background: #111;
+      color: #fff;
+      padding: 36px 32px 150px;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 36px;
+      position: relative;
+      overflow: hidden;
+    }
+    .ceo-panel h2 {
+      margin-top: 14px;
+      font-size: clamp(34px, 3.2vw, 48px);
+      max-width: 10ch;
+      position: relative;
+      z-index: 1;
+      color: #fff;
+    }
+    .ceo-panel .kicker { position: relative; z-index: 1; }
+    .ceo-panel .role {
+      position: relative;
+      z-index: 1;
+      margin-top: 16px;
+      color: #ff3b45;
+      font-family: var(--display);
+      font-weight: 600;
+      letter-spacing: 0;
+      text-transform: none;
+      font-size: 16px;
+    }
+    .ceo-foot {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 6px;
+      max-width: 24ch;
+    }
+    .ceo-foot p {
+      color: #fff;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+    .ceo-panel .ribbons {
+      inset: auto 0 0 0;
+      height: 180px;
+      width: 100%;
+    }
+    .ceo-body {
+      display: grid;
+      gap: 16px;
+      align-content: start;
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+      min-height: 0;
+      padding: 6px 0 0;
+    }
+    .ceo-body p { color: #000; }
+    .ceo-body strong { color: #000; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chips span {
+      border: 1px solid var(--line);
+      background: #fff;
+      padding: 8px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    #projects { background: #f4f6f8; }
+    .proj-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 28px;
+      align-items: end;
+      margin-bottom: 28px;
+    }
+    .proj-head .kicker {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+    }
+    .proj-head h2 {
+      margin-top: 12px;
+      font-size: clamp(22px, 2.6vw, 42px);
+      max-width: none;
+      color: #000;
+    }
+    .proj-head h2 span { color: var(--red); }
+    .proj-side {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 22px;
+    }
+    .proj-side p { color: #000; max-width: 36ch; }
+    .proj-btn {
+      border-radius: 999px;
+      padding: 6px 6px 6px 18px;
+      min-height: 52px;
+      flex: none;
+    }
+    .proj-btn span {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: #fff;
+      color: var(--red);
+      display: grid;
+      place-items: center;
+    }
+    .proj-btn svg, .project-ico svg, .project-go svg {
+      width: 18px;
+      height: 18px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .project {
+      position: relative;
+      overflow: hidden;
+      min-height: 228px;
+      padding: 22px 18px 58px;
+      border: 1px solid #eee;
+      border-radius: 22px;
+      background: #fff;
+      box-shadow: 0 14px 34px rgba(23, 23, 23, 0.06);
+    }
+    .project .bg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 58%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 78% center;
+    }
+    .project::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, #fff 0 42%, rgba(255,255,255,.88) 58%, rgba(255,255,255,.2) 100%);
+      pointer-events: none;
+    }
+    .project-ico, .project h3, .project ul, .project-go { position: relative; z-index: 1; }
+    .project-ico { width: 34px; height: 34px; color: var(--red); margin-bottom: 8px; }
+    .project-ico svg { width: 32px; height: 32px; }
+    .project h3 { margin: 0 0 10px; font-size: 22px; color: #000; max-width: 14ch; }
+    .project ul { margin-top: 0; display: grid; gap: 6px; }
+    .project li { color: #000; font-weight: 600; font-size: 14.5px; padding-left: 14px; position: relative; }
+    .project li::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--red);
+      position: absolute;
+      left: 0;
+      top: 0.55em;
+    }
+    .project-go {
+      position: absolute;
+      right: 16px;
+      bottom: 16px;
+      z-index: 1;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid #f3c5c9;
+      background: #fff;
+      color: var(--red);
+      display: grid;
+      place-items: center;
+    }
+    .project-go:hover { background: var(--red); color: #fff; }
+    .project.now { background: #fff; color: #000; border-color: #eee; }
+    .project.now h3, .project.now li, .project.now .idx { color: #000; }
+    .project.now h3 { color: var(--red); }
+    .project.now li::before { background: var(--red); }
+
+    .std {
+      min-height: 110px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 18px 12px;
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -0.03em;
+    }
+    .std small { display: block; margin-top: 6px; color: var(--muted); font-family: var(--body); font-weight: 500; font-size: 12px; letter-spacing: 0; }
+
+    #approach { background: #f6f6f6; color: #000; }
+    .method-head {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 36px;
+      align-items: end;
+    }
+    .method-head h2 {
+      margin-top: 12px;
+      font-size: clamp(36px, 4.2vw, 52px);
+      max-width: 10ch;
+      color: #000;
+    }
+    .method-head h2 span { color: var(--red); }
+    .method-side { display: grid; justify-items: start; gap: 18px; }
+    .method-side p { color: #000; max-width: 46ch; }
+    .method-label { margin: 34px 0 16px; }
+    .logo-marquee {
+      overflow: hidden;
+      margin-top: 4px;
+      -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+      mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+    }
+    .logo-track {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      width: max-content;
+      animation: logo-move 32s linear infinite;
+    }
+    .logo-marquee:hover .logo-track { animation-play-state: paused; }
+    .logo-item {
+      flex: none;
+      width: auto;
+      height: auto;
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 34px;
+      box-shadow: none;
+    }
+    .logo-item img {
+      width: auto;
+      height: 96px;
+      max-width: 320px;
+      object-fit: contain;
+      object-position: center;
+      mix-blend-mode: multiply;
+    }
+    .logo-item.word {
+      width: 250px;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      gap: 4px;
+      color: #000;
+    }
+    .logo-item.word strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 28px;
+      letter-spacing: -0.03em;
+    }
+    .logo-item.word span {
+      display: block;
+      margin-top: 6px;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    @keyframes logo-move {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+    .method-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .method-card {
+      background: #fff;
+      border: 1px solid #ececec;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 28px rgba(23, 23, 23, 0.05);
+      min-height: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .method-card img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+    }
+    .method-card h3 {
+      margin: 0;
+      padding: 16px 16px 6px;
+      font-size: 20px;
+      color: #000;
+    }
+    .method-card p {
+      margin: 0;
+      padding: 0 16px 18px;
+      color: #000;
+      font-size: 14.5px;
+      line-height: 1.5;
+    }
+    .method-card h3:last-child { padding-bottom: 18px; }
+
+    #team { background: #f4f4f4; }
+    .team-board {
+      display: grid;
+      grid-template-columns: 0.92fr 1.08fr;
+      gap: 22px;
+      align-items: stretch;
+    }
+    .member {
+      background: #fff;
+      border: 1px solid #ececec;
+      border-radius: 22px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 420px;
+    }
+    .member-top {
+      padding: 36px 32px 28px;
+      min-height: 220px;
+    }
+    .member:first-child .member-top { background: #111; }
+    .member h2 {
+      margin-top: 14px;
+      font-size: clamp(34px, 3.5vw, 48px);
+      max-width: 10ch;
+      color: #000;
+    }
+    .member:first-child h2 { color: #fff; }
+    .member:last-child .member-top { background: #fff; border-bottom: 1px solid #eee; }
+    .member:first-child > p { background: #fff; }
+    .member h2 span { color: var(--red); }
+    .member > p {
+      color: #000;
+      padding: 28px 32px 32px;
+      margin-top: auto;
+    }
+    #contact { background: #f7f7f8; }
+    .contact-board {
+      display: grid;
+      grid-template-columns: 0.92fr 1.08fr;
+      gap: 36px;
+      align-items: start;
+    }
+    .contact-copy h2 {
+      margin-top: 14px;
+      font-size: clamp(36px, 4vw, 48px);
+      color: #000;
+    }
+    .contact-copy .lede {
+      margin-top: 12px;
+      max-width: 42ch;
+      color: #000;
+    }
+    .red-card {
+      margin-top: 26px;
+      min-height: 280px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 18px;
+      padding: 26px 24px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 28px;
+      background:
+        linear-gradient(100deg, rgba(176, 12, 22, 0.96) 0%, rgba(176, 12, 22, 0.9) 46%, rgba(140, 10, 18, 0.42) 100%),
+        url("hero-fire.jpg") right center / cover no-repeat;
+    }
+    .card-person {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      position: relative;
+      z-index: 1;
+    }
+    .avatar {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      flex: none;
+      overflow: hidden;
+    }
+    .avatar img { width: 100%; height: 100%; display: block; object-fit: cover; }
+    .card-person strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 26px;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+    }
+    .card-person span {
+      display: block;
+      margin-top: 4px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.88);
+    }
+    .red-card .lines {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 12px;
+    }
+    .red-card a {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      color: #fff;
+    }
+    .red-card a:hover { text-decoration: underline; }
+    .red-card .lines svg {
+      width: 18px;
+      height: 18px;
+      margin-top: 3px;
+      flex: none;
+      stroke: #fff;
+      fill: none;
+      stroke-width: 1.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .form-panel {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 22px;
+      box-shadow: 0 16px 40px rgba(23, 23, 23, 0.05);
+      padding: 32px 28px 28px;
+      display: flex;
+      flex-direction: column;
+    }
+    .form-panel h2 { font-size: clamp(28px, 3vw, 34px); color: #000; }
+    .form-panel .intro { color: #000; margin: 10px 0 22px; max-width: 48ch; }
+    form { display: grid; gap: 12px; }
+    .fields { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    label { display: grid; gap: 0; font-size: 15px; font-weight: 500; color: #8a8a8a; }
+    input, textarea {
+      width: 100%;
+      border: 0;
+      background: #f3f4f6;
+      color: #000;
+      padding: 18px 16px;
+      min-height: 62px;
+      border-radius: 12px;
+    }
+    textarea { min-height: 110px; resize: vertical; }
+    input::placeholder, textarea::placeholder { color: #9a9a9a; }
+    input:focus, textarea:focus { outline: 2px solid var(--red); outline-offset: 0; background: #fff; }
+    .error { color: var(--red); font-size: 12px; font-weight: 600; min-height: 0; }
+    .visit-btn {
+      width: 100%;
+      min-height: 58px;
+      margin-top: 6px;
+      border-radius: 12px;
+      justify-content: space-between;
+      padding: 0 8px 0 20px;
+      font-size: 16px;
+    }
+    .visit-btn .go {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: #fff;
+      color: var(--red);
+      display: grid;
+      place-items: center;
+      flex: none;
+    }
+    .visit-btn .go svg {
+      width: 18px;
+      height: 18px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .thanks {
+      display: none;
+      margin-top: 16px;
+      background: var(--red-soft);
+      padding: 22px;
+      border: 1px solid #f6c9ce;
+      border-radius: 12px;
+    }
+    .thanks.show { display: block; }
+    .thanks strong { font-family: var(--display); font-size: 24px; display: block; margin-bottom: 6px; }
+    .thanks p { color: #000; }
+
+    .site-footer { background: #111; color: #ddd; padding: 60px 0; }
+    .foot {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+    .site-footer a:hover { color: #fff; }
+    .foot .brand-mark { height: 112px; }
+    .foot p { color: #bdbdbd; margin-top: 12px; max-width: 36ch; }
+    .foot h3 { font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 12px; }
+    .foot li + li { margin-top: 8px; }
+    .legal {
+      margin-top: 28px;
+      padding-top: 16px;
+      border-top: 1px solid #2a2a2a;
+      color: #9a9a9a;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .reveal { opacity: 0; transform: translateY(14px); animation: rise 0.7s ease forwards; }
+    .reveal:nth-child(2) { animation-delay: 0.08s; }
+    .reveal:nth-child(3) { animation-delay: 0.16s; }
+    .reveal:nth-child(4) { animation-delay: 0.24s; }
+    @keyframes rise { to { opacity: 1; transform: none; } }
+
+    @media (max-width: 1200px) and (min-width: 1024px) {
+      .split { gap: 32px; }
+      .intro-board { gap: 20px; }
+      .shot.lead { min-height: 300px; }
+      .svc-grid { gap: 14px; }
+      .svc { min-height: 0; padding: 22px 18px 24px; }
+      .svc h3 { font-size: 16.5px; }
+      .projects, .standards { gap: 12px; }
+    }
+    @media (max-width: 980px) {
+      .hero-grid, .section-head, .split, .why-grid, .ceo-layout, .contact-grid, .contact-board, .foot, .intro-board, .method-head, .proj-head, .team-head, .team-board { grid-template-columns: 1fr; }
+      .proj-side { justify-content: flex-start; flex-wrap: wrap; }
+      .shot.lead { min-height: 280px; }
+      .section-head p { justify-self: start; }
+      .grid-4, .grid-3, .projects { grid-template-columns: 1fr 1fr; }
+      .svc-mark { display: none; }
+      .standards { grid-template-columns: repeat(3, 1fr); }
+      .hero-card { min-height: 380px; }
+    }
+    @media (max-width: 1139px) {
+      .wrap, .nav-bar { width: calc(100% - 120px); }
+      .band, .hero { padding: 40px 0; }
+      .callout { padding-bottom: 40px; }
+      .site-footer { padding: 40px 0; }
+    }
+    @media (max-width: 680px) {
+      .trio, .grid-2, .grid-4, .grid-3, .reasons, .projects, .standards, .fields, .svc-grid, .intro-pair, .intro-shots, .method-cards { grid-template-columns: 1fr; }
+      .brand-text { display: none; }
+      .hero { min-height: 0; }
+      .hero-card { min-height: 300px; justify-content: center; padding-left: 0; }
+      .hero-card img { width: min(240px, 70%); margin: 0; }
+      .red-card, .form-panel, .card, .project, .profile { min-height: 0; }
+    }
+    @media (max-width: 599px) {
+      .wrap, .nav-bar { width: calc(100% - 40px); }
+      .band, .hero { padding: 20px 0; }
+      .callout { padding-bottom: 20px; }
+      .site-footer { padding: 20px 0; }
+    }
+    @media (max-width: 440px) {
+      .site-header { top: 10px; }
+      .nav-bar { height: 62px; }
+      .brand-mark { height: 46px; }
+      .nav-cta { min-height: 40px; padding: 0 14px; font-size: 13px; }
+      .hero {
+        min-height: 0;
+        padding: 86px 0 20px;
+      }
+      .hero h1 { margin-top: 10px; font-size: 25px; }
+      .hero .lead { margin-top: 12px; font-size: 14px; }
+      .hero-actions { margin-top: 14px; flex-direction: column; align-items: stretch; }
+      .hero .btn { width: 100%; }
+      .hero-note { margin-top: 12px; font-size: 14px; }
+      .intro-gallery { min-height: 0; grid-template-rows: auto; }
+      .intro-shots { min-height: 0; grid-template-columns: 1fr 1fr; }
+      .shot, .shot.lead { height: 180px; min-height: 0; max-height: 180px; }
+      .callout-card { min-height: 0; padding: 48px 20px; }
+      h1, h2 { font-size: 25px !important; }
+      h3, h4 { font-size: 20px !important; }
+      p, li { font-size: 14px !important; }
+      .proj-head .kicker { font-size: 9px !important; letter-spacing: 0.04em; white-space: nowrap; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .hero-bg video, .hero-bg img, .shot img { transform: none; }
+      .logo-track, .ticker-track { animation: none; }
+      .callout-card { background-attachment: scroll; }
+      .ticker-track { width: auto; flex-wrap: wrap; justify-content: center; }
+      .ticker-group[aria-hidden="true"] { display: none; }
+      .reveal { opacity: 1; transform: none; animation: none; }
+      .card, .project, .profile, .step, .btn { transition: none; }
+    }
+    @media print {
+      .site-header, form, .hero-actions { display: none !important; }
+      .band { padding: 24px 0; }
+      body { background: #fff; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="nav-bar">
+      <a class="brand-word" href="#top" aria-label="AB&amp;M Fire Preventers, home"><img class="brand-mark" src="logo-mark.png" alt="AB&amp;M Fire Preventers"></a>
+      <a class="btn nav-cta" href="#contact">Request a visit</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <video autoplay muted loop playsinline poster="hero-fire.jpg">
+          <source src="https://cdn.prod.website-files.com/63e49d22a8589b181bce4e4a/63ea1110e64482c9bfd07e96_pexels-gustavo-fring-7100845-transcode.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">AB&amp;M FIRE PREVENTORS</p>
+          <h1>Feel safer with <span>Fire Preventers</span></h1>
+          <p class="lead"><span class="name">“AB&amp;M FIRE PREVENTORS”</span> is committed to provide the best possible services to minimize and keep fire risks / hazards “as low as practically possible” to avoid chances of having any fire or life-threatening incidents and thus leading to a loss prevention program.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#services">Offered services</a>
+            <a class="btn ghost" href="#contact">Talk to the team</a>
+          </div>
+          <p class="hero-note">Engr. Muhammad Arif Khan — founder / key facilitator / CEO</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Services">
+      <div class="ticker-track">
+        <div class="ticker-group">
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Fire safety Inspection</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Firefighting system audit &amp; testing</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Aviation fire service management</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Fire safety Trainings</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>SOP development</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Design and Conducting Drills</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Fire extinguisher care</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Fire and safety equipment</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Firefighting equipment specs</span>
+        </div>
+        <div class="ticker-group" aria-hidden="true">
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Fire safety Inspection</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Firefighting system audit &amp; testing</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Aviation fire service management</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Fire safety Trainings</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>SOP development</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Design and Conducting Drills</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Fire extinguisher care</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Fire and safety equipment</span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12.2 1.6c.4 3.2 2.4 5.2 2.4 8.2 1.6-.6 3.2.2 3.2 2.8 0 3.8-2.6 6.8-5.8 7.2-3.2-.4-5.8-3.4-5.8-7.2 0-1.6.8-2.6 1.6-3.4 0 2 1.2 2.8 2 2.8 0-3.2 1.6-5.6 2.4-10.4z"/></svg>Firefighting equipment specs</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="band" id="about">
+      <div class="wrap intro-board">
+        <div class="intro-gallery" aria-label="Fire safety in the field">
+          <figure class="shot lead">
+            <img src="drill-scene.jpg" alt="Firefighters running a hose drill in an industrial yard">
+            <figcaption>Drills</figcaption>
+          </figure>
+          <div class="intro-shots">
+            <figure class="shot">
+              <img src="gear-still.jpg" alt="Red extinguisher, fire hose, breathing mask, and a heat-resistant suit">
+              <figcaption>Equipment</figcaption>
+            </figure>
+            <figure class="shot">
+              <img src="hero-scene.jpg" alt="A firefighter facing a glow inside an industrial hall">
+              <figcaption>Industry</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="intro-copy">
+          <p class="kicker">Introduction</p>
+          <h2>AB&amp;M FIRE PREVENTORS</h2>
+          <div class="prose">
+            <p>“AB&amp;M FIRE PREVENTORS” is committed to provide the best possible services to minimize and keep fire risks / hazards “as low as practically possible” to avoid chances of having any fire or life-threatening incidents and thus leading to a loss prevention program.</p>
+            <p>“AB&amp;M FIRE PREVENTORS” due its exposure, abroad / local trainings and experience is fully capable to meet industrial requirement. The suggested fire safety solutions are backed up with local and international standards and recommended practices like NFPA, BCP 2016, ISO etc.</p>
+            <p>GAP analysis of existing system of clients or to develop fire prevention program, SOPs, relevant training in the field of fire safety / fire prevention etc are a part of our sustainable services.</p>
+          </div>
+          <div class="intro-pair">
+            <article class="card vision">
+              <span class="idx">Vision</span>
+              <h3>Vision</h3>
+              <p>To acquire a conspicuous position amongst the leading “fire safety service providers” based upon guidance from national / international standards and best industrial practices.</p>
+            </article>
+            <article class="card vision">
+              <span class="idx">Mission</span>
+              <h3>Mission</h3>
+              <p>“AB&amp;M FIRE PREVENTORS” is dedicated to provide qualitative, practical, standardized, acceptable and cost effective / best industrial fire safety resolves to meet local / regulatory and international requirement.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="services">
+      <svg class="svc-mark" viewBox="0 0 80 100" aria-hidden="true">
+        <path fill="#f7cfd3" d="M40 6c3 12 13 18 13 32 8-3 16 2 16 15 0 20-13 36-29 38C24 89 11 73 11 53c0-8 4-13 8-17 0 10 6 14 10 14 0-16 8-28 11-44z"/>
+        <path fill="#f3b7bd" d="M41 34c2 8 8 12 8 20 4-1 9 2 9 9 0 12-8 21-17 22-9-1-17-10-17-22 0-5 2-8 5-10 0 6 4 9 6 9 0-9 4-17 6-28z"/>
+        <circle cx="66" cy="10" r="2.2" fill="#f3b7bd"/>
+        <circle cx="74" cy="16" r="1.5" fill="#f6cfd3"/>
+        <circle cx="60" cy="5" r="1.3" fill="#f6cfd3"/>
+      </svg>
+      <div class="wrap">
+        <div class="svc-head">
+          <p class="kicker">Our services</p>
+          <h2>The services offered by<br><span>“AB&amp;M FIRE PREVENTORS”</span></h2>
+          <p class="lede">Comprehensive fire safety solutions to keep your people, assets and premises protected — from inspection to implementation.</p>
+        </div>
+        <div class="svc-grid">
+          <article class="svc">
+            <div class="svc-top">
+              <div class="svc-ico"><img src="icons/inspection.png" alt=""></div>
+            </div>
+            <h3>Fire safety Inspection</h3>
+            <p>Gap analysis and risk assessment to identify hazards and ensure compliance.</p>
+          </article>
+          <article class="svc">
+            <div class="svc-top">
+              <div class="svc-ico"><img src="icons/firefighting.png" alt=""></div>
+            </div>
+            <h3>Firefighting system audit &amp; testing</h3>
+            <p>Detailed audit, performance testing and compliance checks of fire protection systems.</p>
+          </article>
+          <article class="svc">
+            <div class="svc-top">
+              <div class="svc-ico"><img src="icons/aviation.png" alt=""></div>
+            </div>
+            <h3>Aviation / airport fire service management</h3>
+            <p>Specialized fire safety solutions for aviation and airport operations.</p>
+          </article>
+          <article class="svc">
+            <div class="svc-top">
+              <div class="svc-ico"><img src="icons/training.png" alt=""></div>
+            </div>
+            <h3>Fire safety Trainings</h3>
+            <p>Practical and theoretical training to build a fire-safe workforce.</p>
+          </article>
+          <article class="svc">
+            <div class="svc-top">
+              <div class="svc-ico"><img src="icons/sop.png" alt=""></div>
+            </div>
+            <h3>SOP development &amp; postmortem of existing SOPs</h3>
+            <p>Creation and review of standard operating procedures for effective fire safety management.</p>
+          </article>
+          <article class="svc">
+            <div class="svc-top">
+              <div class="svc-ico"><img src="icons/drills.png" alt=""></div>
+            </div>
+            <h3>Design and Conducting Drills</h3>
+            <p>Planning, execution and evaluation of fire drills to ensure preparedness.</p>
+          </article>
+          <article class="svc">
+            <div class="svc-top">
+              <div class="svc-ico"><img src="icons/extinguisher.png" alt=""></div>
+            </div>
+            <h3>Fire extinguisher selection, care, inspection, maintenance, recharging &amp; refilling</h3>
+            <p>End-to-end support for all types of fire extinguishers to ensure reliability and compliance.</p>
+          </article>
+          <article class="svc">
+            <div class="svc-top">
+              <div class="svc-ico"><img src="icons/equipment.png" alt=""></div>
+            </div>
+            <h3>Can help in selection of fire and safety equipment</h3>
+            <p>Expert guidance in choosing the right fire and safety equipment for your needs.</p>
+          </article>
+          <article class="svc">
+            <div class="svc-top">
+              <div class="svc-ico"><img src="icons/specs.png" alt=""></div>
+            </div>
+            <h3>Preparation of specs for various firefighting equipment</h3>
+            <p>Preparation of detailed specifications for proximity suit, fire hoses, SCBAs and other firefighting equipment.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="callout" aria-label="Feel safer with AB&amp;M Fire Preventers">
+      <div class="callout-card">
+          <div>
+            <h2>Feel safer with <span>AB&amp;M FIRE PREVENTERS</span></h2>
+            <p>GAP analysis of existing system of clients or to develop fire prevention program, SOPs, relevant training in the field of fire safety / fire prevention etc are a part of our sustainable services.</p>
+            <a class="btn" href="tel:+923028221308">Call now <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+      </div>
+    </section>
+
+    <section class="band" id="approach">
+      <div class="wrap">
+        <div class="method-head">
+          <div>
+            <h2>Working<br><span>Methodology</span></h2>
+          </div>
+          <div class="method-side">
+            <p>The mission is to be achieved by minimizing hazards, introducing fire safe working techniques, reducing personal injuries, minimizing down times, preventing loss of lives / property / investment, imparting training and improving the confidence and morale of entrepreneurs / workers.</p>
+          </div>
+        </div>
+        <p class="kicker method-label">Standards to be followed</p>
+        <div class="logo-marquee" aria-label="Standards to be followed">
+          <div class="logo-track">
+            <div class="logo-item"><img src="nfpa.png" alt="NFPA"></div>
+            <div class="logo-item"><img src="bcp.png" alt="Building Code of Pakistan, Fire Safety Provisions 2016"></div>
+            <div class="logo-item"><img src="icao.png" alt="ICAO"></div>
+            <div class="logo-item"><img src="ahj.png" alt="Authority Having Jurisdiction"></div>
+            <div class="logo-item word"><strong>Other</strong><span>relevant / best industrial practices and acceptable guidelines</span></div>
+            <div class="logo-item" aria-hidden="true"><img src="nfpa.png" alt=""></div>
+            <div class="logo-item" aria-hidden="true"><img src="bcp.png" alt=""></div>
+            <div class="logo-item" aria-hidden="true"><img src="icao.png" alt=""></div>
+            <div class="logo-item" aria-hidden="true"><img src="ahj.png" alt=""></div>
+            <div class="logo-item word" aria-hidden="true"><strong>Other</strong><span>relevant / best industrial practices and acceptable guidelines</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="leadership">
+      <div class="wrap ceo-layout">
+        <div class="ceo-panel">
+          <div>
+            <p class="kicker">The CEO’s notion</p>
+            <h2>Engr. Muhammad Arif Khan</h2>
+            <p class="role">Founder / key facilitator / CEO</p>
+          </div>
+          <div class="ceo-foot">
+            <p>What burns Never Returns.</p>
+            <p>Fire is the best friend and the worst enemy.</p>
+          </div>
+          <svg class="ribbons" viewBox="0 0 400 220" preserveAspectRatio="none" aria-hidden="true">
+            <path fill="#e10613" d="M0 70c70-40 150 30 230-8 40-18 90-10 170 18v48c-90-36-150-8-210 16C120 170 60 120 0 150V70z"/>
+            <path fill="#c10510" d="M0 150c80-36 150 20 230-4 50-14 110 4 170 22v52H0v-70z"/>
+          </svg>
+        </div>
+        <div class="ceo-body">
+          <p>I, Engr Muhammad Arif Khan, BE(Mech) / MS (Env), having 35 years of RFF field experience is the founder &amp; key facilitator. Besides local trainings I, have done fire officer, emergency management, command &amp; control courses etc from Singapore and UK. My exposure to fire services Singapore, UK, Canada and USA during trainings and for contract negotiation, procurement and Factory Acceptance of fire trucks for Pakistan Civil Aviation Authority is an added qualification and experience. Factory acceptance testing, site inspections and commissioning of fire safety equipment make me an active, dexterous and pivot in emergency service operations. Working experience at the airports, fuel farms, cargo areas, as trainer at PCAA training center, preparing specs of firefighting support and training equipment is un-matched experience. Based upon international exposure many new concepts / drills and firefighting support equipment has been introduced and implemented to PCAA fire services. As a team lead / additional Director / General Manager RFFS continued dedication and efforts in terms of Managing, monitoring and maintaining ICAO (International Civil Aviation Organization, Montreal Canada) regulatory requirements (ICAO standards &amp; recommended practices / SARPs) at PCAA airports helped PCAA to qualify ICAO audits.</p>
+          <p>Out of many the above two sayings pushed to form “AB&amp;M FIRE PREVENTERS” with a view to make diligent efforts to minimize fire hazards and help to make our industrial environment and industries fire safe.</p>
+          <p>After serving 35 years in fire safety on the airports looking after sensitive aircraft operation and carrying out many industrial audits it is felt that at many occasions minor changes in the work theme and a little more value addition, like improved ventilation, housekeeping, appropriate training, suitable fire extinguishers, conducting drills and doing their postmortem etc may lead to appropriate results. However, in many industries having inbuilt fire incidents potential the installation of standpipe system, sprinklers, fire detection system, emergency lighting, means of egress etc are inevitable. Testing of installed systems and conduct of regular drills with improved techniques are vitally important.</p>
+          <p>Based upon the experience, courses and meetings attended at England, Singapore, USA, Canada, China the industrial requirements are well understood and sustainable solutions are suggested in the light of NFPA, BCP 2016 and best industrial practices. Moreover “AB&amp;M FIRE PREVENTERS” can assess already existing SOPs and / or develop new for the clients. Fire prevention inspection / gap analysis, system testing services etc are on our portfolio.</p>
+          <p><strong>Volunteer contribution to the nation by the CEO:</strong> founder and life member of FPAP (Fire Protection Association of Pakistan) and had been Secretary General of FPAP too. FPAP is a volunteer and non-profit organization serving to enhance awareness and bring modernization to promote fire safety in our society.</p>
+          <p>From the platform of FPAP, have conducted GAP analysis / fire prevention inspection of major industrial units / hospitals / pharmaceutical companies like Hino Pak, NICVD, Saffron Pharmaceutical (Faisalabad), ICI PAK, Lucky One Mall, Lucky textile, Artistic Milliner etc and walk through inspections of M/s Molty foam, Junaid Jamshed (J.), Feroz 1888, METIER etc.</p>
+          <p>Besides I was a member of the team to review course curriculum of various Civil Defense Courses.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="projects">
+      <div class="wrap">
+        <div class="proj-head">
+          <div>
+            <p class="kicker">Projects completed with FPAP</p>
+            <h2>Projects completed<br><span>with FPAP</span></h2>
+          </div>
+          <div class="proj-side">
+            <a class="btn proj-btn" href="#contact">Request a visit <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+          </div>
+        </div>
+        <div class="projects">
+          <article class="project">
+            <img class="bg" src="projects/textile.png" alt="">
+            <div class="project-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-6h6v6M4 20h16"/></svg></div>
+            <h3>TEXTILE</h3>
+            <ul>
+              <li>SOORTY</li>
+              <li>J.</li>
+              <li>LUCKY TEXTILE</li>
+              <li>ARTISTIC MILLINER</li>
+              <li>FEROZ 1888</li>
+            </ul>
+            <a class="project-go" href="#contact" aria-label="Ask about textile projects"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="project">
+            <img class="bg" src="projects/hospitals.png" alt="">
+            <div class="project-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 20V9l7-5 7 5v11"/><path d="M12 9v7M9 12.5h6"/></svg></div>
+            <h3>HOSPITALS</h3>
+            <ul>
+              <li>NICVD</li>
+            </ul>
+            <a class="project-go" href="#contact" aria-label="Ask about hospital projects"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="project">
+            <img class="bg" src="projects/manufacturing.png" alt="">
+            <div class="project-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 20V11l5 3V10l5 3V8l8 4v8M3 20h18"/></svg></div>
+            <h3>ENGG MANUFACTURING</h3>
+            <ul>
+              <li>HINO PAK</li>
+            </ul>
+            <a class="project-go" href="#contact" aria-label="Ask about manufacturing projects"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="project">
+            <img class="bg" src="projects/malls.png" alt="">
+            <div class="project-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 10l8-6 8 6v10H4z"/><path d="M9 20v-6h6v6"/></svg></div>
+            <h3>MALLS</h3>
+            <ul>
+              <li>LUCKY ONE</li>
+            </ul>
+            <a class="project-go" href="#contact" aria-label="Ask about mall projects"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="project">
+            <img class="bg" src="projects/pharmaceuticals.png" alt="">
+            <div class="project-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="8" y="3" width="8" height="18" rx="4"/><path d="M8 12h8"/></svg></div>
+            <h3>PHARMECUTICALS</h3>
+            <ul>
+              <li>SAFFRON (Faisal Abad)</li>
+            </ul>
+            <a class="project-go" href="#contact" aria-label="Ask about pharmaceutical projects"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="project">
+            <img class="bg" src="projects/highrise.png" alt="">
+            <div class="project-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 20V4h8v16"/><path d="M11 8h.01M14 8h.01M11 12h.01M14 12h.01M11 16h.01M14 16h.01M4 20h16"/></svg></div>
+            <h3>HIGHRISE BUILDING</h3>
+            <ul>
+              <li>HABIB BANK PLAZA</li>
+            </ul>
+            <a class="project-go" href="#contact" aria-label="Ask about highrise projects"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="project">
+            <img class="bg" src="projects/others.png" alt="">
+            <div class="project-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 8l9-5 9 5-9 5z"/><path d="M3 12l9 5 9-5M3 16l9 5 9-5"/></svg></div>
+            <h3>OTHERS</h3>
+            <ul>
+              <li>MOLTY FOAM</li>
+              <li>OXFORD PRINTING PRESS</li>
+            </ul>
+            <a class="project-go" href="#contact" aria-label="Ask about other projects"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+          <article class="project now">
+            <img class="bg" src="projects/current-work.png" alt="">
+            <div class="project-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20h16M6 20V9l6-3 6 3v11"/><path d="M10 20v-5h4v5"/></svg></div>
+            <h3>CURRENT WORK</h3>
+            <ul>
+              <li>FFC SONA TOWER (Lahore)</li>
+            </ul>
+            <a class="project-go" href="#contact" aria-label="Ask about current work"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="team">
+      <div class="wrap team-board">
+        <article class="member">
+          <div class="member-top">
+            <p class="kicker">Founder / key facilitator / CEO</p>
+            <h2>Engr. Muhammad Arif Khan</h2>
+          </div>
+          <p>Engr. Muhammad Arif Khan, BE(Mech) / MS (Env), having 35 years of RFF field experience, is the founder &amp; key facilitator / CEO.</p>
+        </article>
+        <article class="member">
+          <div class="member-top">
+            <p class="kicker">Life member of FPAP</p>
+            <h2>Muhammad <span>Bilal Khan</span></h2>
+          </div>
+          <p>Mr Bilal is graduated in IT / Networking from Australia. He has qualified NEBOSH-IGC, IOSH- managing safely. Furthermore Fireman &amp; fire prevention courses from Civil Defense and CFPF-1 (Certified Fire Protection Facilitator) course from FPAP. He is a life member of FPAP.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="band" id="contact">
+      <div class="wrap contact-board">
+        <div class="contact-copy">
+          <p class="kicker">Get in touch</p>
+          <h2>Ask for a Visit</h2>
+          <p class="lede">Get expert guidance for your fire safety requirements. Schedule a site visit or contact us for more information.</p>
+          <aside class="red-card">
+            <div class="card-person">
+              <span class="avatar" aria-hidden="true">
+                <img src="user-icon.png" alt="">
+              </span>
+              <div>
+                <strong>Muhammad Arif Khan</strong>
+                <span>Founder / key facilitator / CEO</span>
+              </div>
+            </div>
+            <div class="lines">
+              <a href="tel:+923028221308">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 3.6h2.6l1.1 3-1.7 1a11 11 0 0 0 5.2 5.2l1-1.7 3 1.1v2.6a1.6 1.6 0 0 1-1.7 1.6A14.4 14.4 0 0 1 5.6 5.3a1.6 1.6 0 0 1 1.6-1.7z"/></svg>
+                <span>0302-8221308</span>
+              </a>
+              <a href="tel:+922134611244">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 3.6h2.6l1.1 3-1.7 1a11 11 0 0 0 5.2 5.2l1-1.7 3 1.1v2.6a1.6 1.6 0 0 1-1.7 1.6A14.4 14.4 0 0 1 5.6 5.3a1.6 1.6 0 0 1 1.6-1.7z"/></svg>
+                <span>021-34611244</span>
+              </a>
+              <a href="mailto:arif@abm-fire.com">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="1.5"/><path d="m4 7 8 6 8-6"/></svg>
+                <span>arif@abm-fire.com</span>
+              </a>
+              <a href="https://maps.google.com/?q=AB%26M%20House%20A-226%20Block-2%20Gulistan-e-Johar%20Karachi" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s6.5-5.6 6.5-10.2a6.5 6.5 0 1 0-13 0C5.5 15.4 12 21 12 21z"/><circle cx="12" cy="10.6" r="2.1"/></svg>
+                <span>AB&amp;M House, A-226, Block-2, Gulistan-e-Johar, Karachi</span>
+              </a>
+              <a href="https://www.abm-fire.com" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M4 12h16"/><path d="M12 4c2.4 2.5 3.6 5.2 3.6 8s-1.2 5.5-3.6 8c-2.4-2.5-3.6-5.2-3.6-8s1.2-5.5 3.6-8z"/></svg>
+                <span>www.abm-fire.com</span>
+              </a>
+            </div>
+          </aside>
+        </div>
+
+        <div class="form-panel">
+          <h2>Tell us about the site</h2>
+          <p class="intro">Fill out the form and our team will get back to you to arrange a visit at your convenience.</p>
+          <form class="contact-form" novalidate>
+            <div class="fields">
+              <label>
+                <input name="name" type="text" autocomplete="name" placeholder="Name" required>
+              </label>
+              <label>
+                <input name="phone" type="tel" autocomplete="tel" placeholder="Phone" required>
+              </label>
+            </div>
+            <div class="fields">
+              <label>
+                <input name="email" type="email" autocomplete="email" placeholder="Email" required>
+              </label>
+              <label>
+                <input name="org" type="text" autocomplete="organization" placeholder="Company">
+              </label>
+            </div>
+            <label>
+              <textarea name="message" required placeholder="Site Address / Project Details"></textarea>
+            </label>
+            <p class="error" role="alert" hidden></p>
+            <button class="btn visit-btn" type="submit">
+              Request a Site Visit
+              <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </button>
+          </form>
+          <div class="thanks" role="status">
+            <strong>Your email app should open.</strong>
+            <p>The note is addressed to arif@abm-fire.com. If nothing opens, call 0302-8221308 or 021-34611244.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot">
+        <div>
+          <a class="brand" href="#top">
+            <img class="brand-mark" src="logo-mark.png" alt="AB&amp;M Fire Preventers">
+          </a>
+          <p>Feel safer with “AB&amp;M FIRE PREVENTERS”.</p>
+        </div>
+        <div>
+          <h3>On this page</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#approach">Approach</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Office</h3>
+          <ul>
+            <li>AB&amp;M House, A-226, Block-2</li>
+            <li>Gulistan-e-Johar, Karachi</li>
+            <li><a href="tel:+923028221308">0302-8221308</a></li>
+            <li><a href="tel:+922134611244">021-34611244</a></li>
+            <li><a href="mailto:arif@abm-fire.com">arif@abm-fire.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal">
+        <span>© <span id="year">2026</span> AB&amp;M Fire Preventers</span>
+        <span>NFPA · BCP 2016 · ICAO · AHJ’s · ISO</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script>
+    (function () {
+      var header = document.querySelector(".site-header");
+      var form = document.querySelector(".contact-form");
+      var thanks = document.querySelector(".thanks");
+      var error = form.querySelector(".error");
+      var year = document.getElementById("year");
+
+      year.textContent = String(new Date().getFullYear());
+
+      function onScroll() {
+        header.classList.toggle("scrolled", window.scrollY > 8);
+      }
+      onScroll();
+      window.addEventListener("scroll", onScroll, { passive: true });
+
+      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      var heroVideo = document.querySelector(".hero-bg video");
+      if (reduce && heroVideo) {
+        heroVideo.removeAttribute("autoplay");
+        heroVideo.pause();
+      }
+      if (!reduce && window.gsap && window.Lenis && window.ScrollTrigger) {
+        gsap.registerPlugin(ScrollTrigger);
+        var lenis = new Lenis({ duration: 1.05, smoothWheel: true });
+        lenis.on("scroll", ScrollTrigger.update);
+        gsap.ticker.add(function (time) { lenis.raf(time * 1000); });
+        gsap.ticker.lagSmoothing(0);
+
+        document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+          link.addEventListener("click", function (event) {
+            var id = link.getAttribute("href");
+            var target = id && id.length > 1 ? document.querySelector(id) : null;
+            if (!target) return;
+            event.preventDefault();
+            lenis.scrollTo(target, { offset: -90 });
+          });
+        });
+
+        gsap.from(".hero .kicker, .hero h1, .hero .lead, .hero-actions, .hero-note", {
+          y: 36,
+          opacity: 0,
+          duration: 0.9,
+          stagger: 0.1,
+          ease: "power3.out"
+        });
+        gsap.from(".hero-card", { x: 48, opacity: 0, duration: 1.1, ease: "power3.out", delay: 0.15 });
+        gsap.to(".hero-bg video", {
+          yPercent: 12,
+          ease: "none",
+          scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: true }
+        });
+        gsap.utils.toArray(".shot").forEach(function (shot, i) {
+          gsap.from(shot, {
+            y: 48,
+            opacity: 0,
+            duration: 0.8,
+            delay: i * 0.08,
+            ease: "power2.out",
+            scrollTrigger: { trigger: shot, start: "top 88%" }
+          });
+          var img = shot.querySelector("img");
+          gsap.fromTo(img, { yPercent: -6, scale: 1.12 }, {
+            yPercent: 6,
+            scale: 1.12,
+            ease: "none",
+            scrollTrigger: { trigger: shot, start: "top bottom", end: "bottom top", scrub: true }
+          });
+        });
+        ScrollTrigger.batch(".svc, .project, .vision, .std, .method-card", {
+          start: "top 90%",
+          onEnter: function (batch) {
+            gsap.from(batch, { y: 28, opacity: 0, stagger: 0.06, duration: 0.65, ease: "power2.out", overwrite: true });
+          },
+          once: true
+        });
+      }
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        error.hidden = true;
+        error.textContent = "";
+        var data = new FormData(form);
+        var name = String(data.get("name") || "").trim();
+        var phone = String(data.get("phone") || "").trim();
+        var email = String(data.get("email") || "").trim();
+        var message = String(data.get("message") || "").trim();
+        var emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        var phoneOk = phone.replace(/[^\d]/g, "").length >= 7;
+
+        if (!name || !message || !emailOk || !phoneOk) {
+          error.hidden = false;
+          error.textContent = "Add your name, a working email, a phone number, and a short note.";
+          return;
+        }
+
+        var org = String(data.get("org") || "").trim();
+        var body = [
+          "Name: " + name,
+          "Company: " + (org || "-"),
+          "Phone: " + phone,
+          "Email: " + email,
+          "",
+          message
+        ].join("\n");
+        form.hidden = true;
+        thanks.classList.add("show");
+        var mail = document.createElement("a");
+        mail.href = "mailto:arif@abm-fire.com?subject=" + encodeURIComponent("Site enquiry from " + name) + "&body=" + encodeURIComponent(body);
+        mail.click();
+      });
+    })();
+  </script>
+</body>
+</html>
